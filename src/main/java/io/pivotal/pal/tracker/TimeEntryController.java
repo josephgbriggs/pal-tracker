@@ -56,4 +56,5 @@ public class TimeEntryController {
         timeEntryRepository.delete(timeEntryId);
         return ResponseEntity.noContent().build();
     }
+
 }
